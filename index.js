@@ -22,10 +22,10 @@ module.exports = function(content) {
     if (types.isPlainRequire(node)) {
       const result = extractDependencyFromRequire(node);
       if (result) {
-        dependencies.push(result);
+        dependencies.push({ value: result });
       }
     } else if (types.isMainScopedRequire(node)) {
-      dependencies.push(extractDependencyFromMainRequire(node));
+      dependencies.push({ value: extractDependencyFromMainRequire(node) });
     }
 
   });
