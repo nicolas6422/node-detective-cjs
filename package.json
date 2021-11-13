@@ -1,5 +1,5 @@
 {
-  "name": "detective-cjs",
+  "name": "detective-cjs-extended",
   "version": "3.1.1",
   "description": "Get the dependencies of a CommonJS module by traversing its AST",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrjoelkemp/node-detective-cjs.git"
+    "url": "https://github.com/nicolas6422/node-detective-cjs.git"
   },
   "keywords": [
     "detective",
@@ -19,12 +19,6 @@
     "cjs",
     "jsx"
   ],
-  "author": "Joel Kemp <joel@mrjoelkemp.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mrjoelkemp/node-detective-cjs/issues"
-  },
-  "homepage": "https://github.com/mrjoelkemp/node-detective-cjs",
   "engines": {
     "node": ">= 6.0"
   },
